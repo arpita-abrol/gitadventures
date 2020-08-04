@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pycodestyle = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+gunicorn = "==19.7.1"
+livereload = "*"
+Flask = "==1.1.2"
+prometheus_client = "*"
+flask-restx = "*"
+flask-wtf = "*"
